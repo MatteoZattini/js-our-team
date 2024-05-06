@@ -7,4 +7,10 @@ let ourTeam = [
     { nome: "Barbara Ramos", roulo: "Graphic Designer", immagine: "barbara-ramos-graphic-designer.jpg" }
 ]
 
-console.log(ourTeam)
+for ( let i = 0; i < ourTeam.length; i++ ) {
+    const membro = ourTeam[i]
+    console.log(` nome: ${membro.nome} ruolo: ${membro.roulo}` );
+    // for ( let key in membro) {
+    //     console.log( key, membro[key])
+    // }
+}
