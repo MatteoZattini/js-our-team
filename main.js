@@ -9,8 +9,8 @@ let ourTeam = [
 
 for ( let i = 0; i < ourTeam.length; i++ ) {
     const membro = ourTeam[i]
-    console.log(` nome: ${membro.nome} ruolo: ${membro.roulo}` );
-    // for ( let key in membro) {
-    //     console.log( key, membro[key])
-    // }
+    // console.log(` nome: ${membro.nome} ruolo: ${membro.roulo}` );
+    for ( let key in membro) {
+        console.log( key, membro[key])
+    }
 }
